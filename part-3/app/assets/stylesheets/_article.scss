@@ -1,6 +1,10 @@
 article {
-	width: 75%;
+	width: 90%;
 	margin: 1rem auto 3rem;
+	border: $stormtrooper_red solid 10px;
+	background-color: $stormtrooper_article;
+	padding: 15px;
+	border-radius: 1em;
 	header {
 		@mixin clearfix {
 		overflow: auto;
