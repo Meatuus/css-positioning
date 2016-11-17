@@ -1,7 +1,7 @@
 // Place all the styles related to the Films controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-@import "variables";
+@import "variables", "mixins";
 
 *,
 *::before,
@@ -110,10 +110,3 @@ article {
 }
 
 // This mixin provides a fancier clearfix than using the overflow property!
-@mixin clearfix {
-	&::after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-}
